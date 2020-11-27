@@ -29,5 +29,11 @@ namespace DAL.Context
         public DbSet<Urunler> Urunlers { get; set; }
         public DbSet<Yetkiler> Yetkilers { get; set; }
         public DbSet<Hesaplar> Hesaplar { get; set; }
+        public DbSet<BirimKullanici> BirimKullanicis { get; set; }
+        public DbSet<Birimler> Birimlers { get; set; }
+        public DbSet<Hedefler> Hedeflers { get; set; }
+        public DbSet<IsEmirleri> IsEmirleris { get; set; }
+        public DbSet<IsTurleri> IsTurleris { get; set; }
+        public DbSet<Parametreler> Parametrelers { get; set; }
     }
 }
